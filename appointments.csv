@@ -1,0 +1,4 @@
+booking_id,customer_name,phone,device_type,issue,date,time,status,created_at
+B0001,王小明,0912345001,desktop,開機後螢幕沒有畫面,2026-11-02,10:00,completed,2026-10-30 14:20
+B0002,陳美玲,0923456002,laptop,風扇聲音很大而且很燙,2026-11-12,14:00,booked,2026-11-06 09:45
+B0003,林大偉,0934567003,desktop,想加裝一條 SSD,2026-11-05,16:00,cancelled,2026-11-01 18:05

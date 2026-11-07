@@ -1,0 +1,24 @@
+item_id,name,name_zh,category,price,available
+1,Standard PC assembly,標準電腦組裝,service,1800,1
+2,Gaming PC assembly,遊戲電腦組裝,service,2500,1
+3,Small-form-factor assembly,小型主機組裝,service,3200,1
+4,Desktop diagnosis,桌機檢測,diagnostic,500,1
+5,Laptop diagnosis,筆電檢測,diagnostic,700,1
+6,SSD installation,SSD 安裝,service,450,1
+7,RAM installation,記憶體安裝,service,350,1
+8,GPU installation,顯示卡安裝,service,400,1
+9,CPU cooler installation,CPU 散熱器安裝,service,600,1
+10,Thermal paste replacement,散熱膏更換,service,500,1
+11,Desktop deep cleaning,桌機深度清潔,service,900,1
+12,Laptop deep cleaning,筆電深度清潔,service,1200,1
+13,Operating system installation,作業系統安裝,service,1000,1
+14,Data migration,資料轉移,service,800,1
+15,BIOS update,BIOS 更新,service,600,1
+16,Case fan installation,機殼風扇安裝,service,300,1
+17,Cable management,整線服務,service,700,1
+18,Liquid cooling installation,水冷安裝,service,1500,0
+19,500GB SSD,500GB 固態硬碟,part,1200,1
+20,1TB SSD,1TB 固態硬碟,part,2200,1
+21,16GB DDR4 RAM,16GB DDR4 記憶體,part,1100,1
+22,32GB DDR4 RAM,32GB DDR4 記憶體,part,2000,1
+23,120mm case fan,120mm 機殼風扇,part,350,1

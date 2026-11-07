@@ -1,0 +1,4 @@
+gradio>=6.8,<7
+openai>=3.37,<4
+python-dotenv>=1.2,<2
+numpy>=2,<3

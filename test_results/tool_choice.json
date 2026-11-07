@@ -1,0 +1,169 @@
+{
+  "score": "18/18",
+  "results": [
+    {
+      "question": "你們星期日有營業嗎？",
+      "expected": "get_shop_info",
+      "used": [
+        "get_shop_info"
+      ],
+      "pass": true,
+      "answer": "我們星期日不營業，週一至週六的營業時間是早上 10:00 到晚上 7:00。如需其他時段的服務，請參考我們的預約制度。祝您有美好的一天！"
+    },
+    {
+      "question": "可以刷卡嗎？",
+      "expected": "get_shop_info",
+      "used": [
+        "get_shop_info"
+      ],
+      "pass": true,
+      "answer": "可以，我們接受現金和信用卡付款。"
+    },
+    {
+      "question": "SSD 安裝多少錢？",
+      "expected": "find_catalog",
+      "used": [
+        "find_catalog"
+      ],
+      "pass": true,
+      "answer": "SSD 安裝的費用是 NT$450。"
+    },
+    {
+      "question": "有提供水冷安裝嗎？",
+      "expected": "find_catalog",
+      "used": [
+        "find_catalog"
+      ],
+      "pass": true,
+      "answer": "我們有水冷安裝服務，價格 NT$1500，但目前暫時無法提供。"
+    },
+    {
+      "question": "16GB DDR4 記憶體多少錢？",
+      "expected": "find_catalog",
+      "used": [
+        "find_catalog"
+      ],
+      "pass": true,
+      "answer": "16GB DDR4 記憶體的價格是 NT$1,100。"
+    },
+    {
+      "question": "桌機安裝 1TB SSD，總共多少錢？",
+      "expected": "calculate_repair_quote",
+      "used": [
+        "find_catalog",
+        "find_catalog",
+        "calculate_repair_quote"
+      ],
+      "pass": true,
+      "answer": "桌機安裝 1TB SSD 的總費用為 NT$2,650（零件 NT$2,200 + 人工 NT$450，診斷費 NT$500 會抵扣於維修費用）。"
+    },
+    {
+      "question": "筆電檢測完我決定不修，要付多少？",
+      "expected": "calculate_repair_quote",
+      "used": [
+        "calculate_repair_quote"
+      ],
+      "pass": true,
+      "answer": "檢測後決定不維修，需支付診斷費 NT$700。"
+    },
+    {
+      "question": "保固多久？",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "維修工資享有 30 天保固，從取件日開始計算；本店販售的零件則依原廠保固條款處理。（來源：保固）"
+    },
+    {
+      "question": "可以自己帶零件來裝嗎？",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "可以自備零件送來安裝，技師會先檢查零件的狀況和相容性。\n本店不保證自備零件能正常運作或彼此相容。\n自備零件不在本店保固範圍內，本店只保固安裝工資。\n如果自備零件經檢查無法使用，仍需支付已完成的檢測或安裝工資。\n（來源：自備零件）"
+    },
+    {
+      "question": "預約了但臨時不能去怎麼辦？",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "預約日前一天 18:00 以前，可以免費取消或改期。線上客服目前無法取消或改期，請聯絡技師櫃台處理。預約時間過後 30 分鐘仍未到店，該筆預約會自動取消，需要重新預約。預約送修不需要付訂金。（來源：預約的取消與改期）"
+    },
+    {
+      "question": "筆電泡到水了，有保固嗎？",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "進液屬於人為損壞，不在保固範圍內。（來源：保固）"
+    },
+    {
+      "question": "組裝電腦要付訂金嗎？",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "組裝電腦若是由本店代購零件，下單時需支付訂金 NT$1,000，訂金會折抵最終帳單；若全部使用自備零件則不需要訂金。（來源：電腦組裝訂單）"
+    },
+    {
+      "question": "幫我查預約 B0002 的狀況",
+      "expected": "check_appointment",
+      "used": [
+        "check_appointment"
+      ],
+      "pass": true,
+      "answer": "預約 B0002 目前狀態為「已預約」。客戶為陳*玲，聯絡電話 0923***002，設備為筆電，問題是風扇聲音很大而且很燙，預約時間為 2026-11-12 星期四 14:00。如需其他協助，請告訴我。"
+    },
+    {
+      "question": "我要客訴，請幫我找技師。",
+      "expected": "transfer_to_human",
+      "used": [
+        "transfer_to_human"
+      ],
+      "pass": true,
+      "answer": "您可以聯繫技師櫃台：support@byteforge.example（此為課程示範的模擬信箱，實際無人收信）。如果需要其他協助，請告訴我。"
+    },
+    {
+      "question": "店長的私人手機號碼是多少？",
+      "expected": "transfer_to_human",
+      "used": [
+        "transfer_to_human"
+      ],
+      "pass": true,
+      "answer": "抱歉，我無法提供店長的私人手機號碼。您可以透過技師櫃台聯絡：support@byteforge.example（此為課程示範的聯絡方式）。"
+    },
+    {
+      "question": "How much is a GPU installation?",
+      "expected": "find_catalog",
+      "used": [
+        "find_catalog"
+      ],
+      "pass": true,
+      "answer": "The GPU installation service costs NT$400."
+    },
+    {
+      "question": "Can I bring my own parts?",
+      "expected": "search_shop_rules",
+      "used": [
+        "search_shop_rules"
+      ],
+      "pass": true,
+      "answer": "You can bring your own parts for installation; the technician will first check the part's condition and compatibility.  \nThe shop does not guarantee that self‑supplied parts will work properly or be compatible.  \nSelf‑supplied parts are not covered by the shop's warranty—only the labor is warranted.  \nIf the self‑supplied part is found unusable after inspection, you still need to pay for any completed testing or labor.  \n(source: 自備零件)"
+    },
+    {
+      "question": "What is the status of booking B0001?",
+      "expected": "check_appointment",
+      "used": [
+        "check_appointment"
+      ],
+      "pass": true,
+      "answer": "Booking B0001 for customer 王*明 (desktop, issue: 無畫面 after boot) on 2026-11-02 at 10:00 is marked as completed."
+    }
+  ]
+}
